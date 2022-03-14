@@ -45,8 +45,8 @@ h2 {
     border-radius: 10px;
     padding: 10px;
     font-size: 16px;
-    border: none;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .boton-nav:active {
@@ -87,7 +87,6 @@ h2 {
 .boton-card {
     background-color: #427e80;
     box-shadow: 2px 3px #154454;
-    border: none;
     padding: 10px;
     border-radius: 10px;
     color: #f0f5e4;
@@ -95,6 +94,10 @@ h2 {
     cursor: pointer;
     font-size: 16px;
     margin-bottom: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 40%;
 }
 
 .boton-card:active {
@@ -130,4 +133,25 @@ footer {
     text-align: center;
     width: 300px;
     height: 60px;
+}
+
+/*Historia*/
+.contenido-historia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+}
+
+.card-contenido-historia {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 80px 50px;
+}
+
+.card-texto-historia {
+    width: 45%;
 }
