@@ -112,3 +112,22 @@ h2 {
     width: 300px;
     justify-content: space-around;
 }
+
+footer {
+    background-color: #1d1d1d;
+    height: 80px;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f0f5e4;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+}
