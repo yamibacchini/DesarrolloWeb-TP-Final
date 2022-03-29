@@ -51,18 +51,18 @@
                 </video>
                 <div class="barra-video">
                     <div class="botonera-video">
-                        <button class="boron-barra">
+                        <button class="boron-barra" onclick="iniciarVideo()">
                             <img src="./assets/imagenes/play.svg" alt="Inicio">
                         </button>
-                        <button class="boron-barra">
+                        <button class="boron-barra" onclick="pausarVideo()">
                             <img src="./assets/imagenes/pausa.svg" alt="Pausa">
                         </button>
                     </div>
-                    <p>Duración video:</p>
+                    <p id="duracion">Duración video:</p>
                 </div>
             </div>
         </section>
     </main>
-
+    <script src="./script.js"></script>
 </body>
 </html>
