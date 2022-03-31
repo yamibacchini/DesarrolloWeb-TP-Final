@@ -135,6 +135,10 @@ footer {
     height: 60px;
 }
 
+.footer-texto {
+    text-align: center;
+}
+
 /*Historia*/
 .contenido-historia {
     display: flex;
