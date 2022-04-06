@@ -114,7 +114,7 @@ h2 {
 
 #contenido {
     margin: 100px 0px;
-    width: 100%;
+    
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
@@ -176,7 +176,7 @@ h2 {
 
 footer {
     background-color: #1d1d1d;
-    height: 80px;
+    height: 100px;
     padding: 0px 40px;
     display: flex;
     justify-content: space-between;
