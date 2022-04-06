@@ -23,7 +23,59 @@ header {
 
 svg {
     width: 200px;
-    height: 85px;
+    height: 80px;
+}
+
+.monitorAzul, .tecladoAzul {
+    animation-name: parteAzul;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+}
+
+.monitorCeleste, .tecladoCeleste {
+    animation-name: parteCeleste;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+}
+
+@keyframes parteAzul {
+    0% {
+        transform: translate(0, -10px);
+        opacity: 0;
+    }
+    20% {
+        transform: translate(0, -10px);
+        opacity: 0;
+    }
+    30% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes parteCeleste {
+    0% {
+        transform: translate(0, -10px);
+        opacity: 0;
+    }
+    30% {
+        transform: translate(0, -10px);
+        opacity: 0;
+    }
+    40% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
 }
 
 h1 {
