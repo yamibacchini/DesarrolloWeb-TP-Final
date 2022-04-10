@@ -1,3 +1,4 @@
+/*Historia*/
 let videoHistoria =  document.getElementById("video-historia");
 
 let iniciarVideo = () => {
