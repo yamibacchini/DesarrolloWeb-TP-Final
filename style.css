@@ -269,3 +269,54 @@ footer {
 #duracion {
     margin: 25px 15px 0px 0px;
 }
+
+/*Juguemos*/
+main {
+    padding: 100px 20px;
+}
+
+.seccionJuego {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destinos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#destino1, #destino2, #destino3 {
+    border: 2px solid black;
+    background-color: grey;
+    width: 275px;
+    height: 400px;
+    text-align: center;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 40px;
+}
+
+#imagen1, #imagen2, #imagen3 {
+    width: 275px;
+    height: 400px;
+}
+
+.reiniciar {
+    box-shadow: 2px 3px #154454;
+    border-radius: 10px;
+    background-color: #F0F5E4;
+    color: #154454;
+    margin: auto;
+    padding: 10px 100px;
+}
+
+.reiniciar:active {
+    box-shadow: 0px 0px #154454;
+    transform: translate(2px, 3px);
+}

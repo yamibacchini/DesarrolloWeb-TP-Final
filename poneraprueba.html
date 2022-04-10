@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/imagenes/logo.svg">
+    <title>Proyecto-Final</title>
+</head>
+<body>
+    <nav>
+        <a href="./index.html">
+            <svg>
+                <rect class="monitorAzul" x="45" y="5" rx="5" fill="#3F6797" width="60" height="35"></rect>
+                <rect class="monitorCeleste" x="50" y="10" rx="5" fill="#B1D5E4" width="50" height="25"></rect>
+                <polygon class="tecladoAzul" points="54 45, 94 45, 114 63, 29 63" fill="#3F6797"></polygon>
+                <polygon class="tecladoCeleste" points="56 48, 92 48, 105 59, 42 59" fill="#B1D5E4"></polygon>
+            </svg>
+        </a>
+        <div id="botonera">
+            <a class="boton-nav" href="./historia.html">HISTORIA</a>
+            <a class="boton-nav">JUGUEMOS</a>
+        </div>
+    </nav>
+    <header>
+        <h1 class="titulo">JUGUEMOS UN POCO</h1>
+    </header>
+    <main>
+        <section class="seccionJuego">
+            <h2>Armemos el rompecabezas y veamos que imagen es...</h2>
+            <div class="destinos">
+                <div id="destino1">
+                    <p>Arrastre y suelte la imagen aquí</p>
+                </div>
+                <div id="destino2">
+                    <p>Arrastre y suelte la imagen aquí</p>
+                </div>
+                <div id="destino3">
+                    <p>Arrastre y suelte la imagen aquí</p>
+                </div>
+            </div>
+            <div class="imagenes">
+                <img id="imagen2" src="./assets/imagenes/rompe2.png"></img>
+                <img id="imagen1" src="./assets/imagenes/Rompe1.png"></img>
+                <img id="imagen3" src="./assets/imagenes/Rompe3.png"></img>
+            </div>
+            <button class="reiniciar">Reiniciar</button>
+        </section>
+    </main>
+</body>
+</html>
