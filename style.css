@@ -1,3 +1,8 @@
+.flex-items-center {
+    display: flex;
+    align-items: center;
+}
+
 body {
     margin: 0px;
     background-color: #427E80;
@@ -5,9 +10,7 @@ body {
 
 nav {
     background-color:  #427e80;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 0px 40px;
 }
 
@@ -16,9 +19,7 @@ header {
     background-size: cover;
     min-height: 500px;
     font-size: 28px;
-    display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 
 svg {
@@ -114,7 +115,6 @@ h2 {
 
 #contenido {
     margin: 100px 0px;
-    
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
@@ -178,17 +178,13 @@ footer {
     background-color: #1d1d1d;
     height: 100px;
     padding: 0px 40px;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     color: #f0f5e4;
 }
 
 .footer-logo {
-    display: flex;
     justify-content: space-between;
     font-size: 12px;
-    text-align: center;
     width: 300px;
     height: 60px;
 }
@@ -199,17 +195,13 @@ footer {
 
 /*Historia*/
 .contenido-historia {
-    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     padding: 100px 20px;
 }
 
 .card-contenido-historia {
-    display: flex;
     justify-content: space-around;
-    align-items: center;
     gap: 20px;
     padding: 80px 50px;
 }
@@ -220,10 +212,8 @@ footer {
 
 .seccion-video-historia {
     padding: 100px 0px;
-    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .video-contenedor {
@@ -271,14 +261,9 @@ footer {
 }
 
 /*Juguemos*/
-.seccionJuego {
+.seccion-juego {
     padding: 100px 20px;
-}
-
-.seccionJuego {
-    display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .destinos {
